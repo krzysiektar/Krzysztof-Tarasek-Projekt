@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>  
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:orientation="vertical"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"
+        android:focusable="false">
+        <TableRow android:focusable="false">
+        <TextView
+            android:text="Nazwa"
+            android:layout_column="0"
+            android:id="@+id/listviewPoint_name"
+            android:layout_width="142.3dp"
+            android:layout_marginLeft="5.5dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:id="@+id/delete_img_point"
+            android:layout_width="44.6dp"
+            android:layout_height="31.4dp"
+            android:focusable="false"/>
+        
+        </TableRow>
+        <TableRow>
+        <TextView
+            android:text="Opis:"
+            android:layout_column="0"
+            android:layout_width="105.7dp"
+            android:layout_marginLeft="5.5dp"/>
+            <TextView
+                android:text="opis"
+                android:layout_column="1"
+                android:id="@+id/listviewPoint_Description"
+                android:layout_width="137.7dp"
+                android:layout_marginLeft="20.4dp" />             
+                
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Pozycja:"
+                android:layout_column="0"
+                android:layout_width="105.7dp"
+                android:layout_marginLeft="5.5dp"/>
+            <TextView
+                android:text="koordynaty"
+                android:layout_column="1"
+                android:id="@+id/listviewPoint_pos"
+                android:layout_width="137.7dp"
+                android:layout_marginLeft="20.4dp" />     
+                
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Kolor:"
+                android:layout_column="0"
+                android:layout_width="105.7dp"
+                android:layout_marginLeft="5.5dp"/>
+            <TextView
+                android:text="kolor"
+                android:layout_column="1"
+                android:id="@+id/listviewPoint_color"
+                android:layout_width="137.7dp"
+                android:layout_marginLeft="20.4dp" />     
+                
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Kategoria:"
+                android:layout_column="0"
+                android:layout_width="105.7dp"
+                android:layout_marginLeft="5.5dp"/>
+            <TextView
+                android:text="Kategoria"
+                android:layout_column="1"
+                android:id="@+id/listviewPoint_category"
+                android:layout_width="137.7dp"
+                android:layout_marginLeft="20.4dp" />            
+                
+        </TableRow>
+</TableLayout>

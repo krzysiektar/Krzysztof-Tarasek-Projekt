@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <TextView
+        android:text="Wybierz punkt na mapie:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65.0dp"
+        android:id="@+id/textView4" />
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/googlemap2"
+        android:layout_width="match_parent"
+        android:layout_height="228.5dp"
+        android:layout_marginBottom="20.0dp"/>
+    <TextView
+        android:text="Pozycja*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:editable="false"
+        android:focusable="false"
+        android:id="@+id/marker_position" />
+    <TextView
+        android:text="Nazwa*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/point_name" />
+    <TextView
+        android:text="Opis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/point_description" />
+    <TextView
+        android:text="Kategoria*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="1.4dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1" />
+    <TextView
+        android:text="Kolor*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView355"
+        android:layout_marginTop="8.0dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2" />
+    <Button
+        android:text="Dodaj"
+        android:layout_width="278.0dp"
+        android:layout_height="69.7dp"
+        android:layout_marginLeft="68.7dp"
+        android:id="@+id/btnAdd_Point"
+        android:layout_marginTop="33.7dp" />
+
+</LinearLayout>

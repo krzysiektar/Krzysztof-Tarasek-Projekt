@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Tu znajdziesz wszystkie kategorie do wyboru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56.5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="28.0dp" />
+    <Button
+        android:text="Dodaj Kategorie"
+        android:layout_width="218.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddCategory"
+        android:layout_marginTop="14.5dp"
+        android:layout_marginLeft="85.5dp"
+        android:layout_marginBottom="46.0dp" />
+    
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16.0dp">
+            <TextView
+                android:text="Kategorie"
+                android:layout_column="0"
+                android:id="@+id/textView18"
+                android:layout_width="92.0dp"
+                android:layout_marginLeft="5.5dp"
+                android:layout_marginRight="63.4dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text="Opis"
+                android:layout_column="1"
+                android:id="@+id/textView18"
+                android:layout_width="92.0dp"
+                android:layout_marginLeft="5.5dp"
+                android:textStyle="bold" />            
+        </TableRow>
+        
+    </TableLayout>
+    <ListView  
+        android:minWidth="25px"  
+        android:minHeight="25px"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"  
+        android:id="@+id/listView"/>
+</LinearLayout>
